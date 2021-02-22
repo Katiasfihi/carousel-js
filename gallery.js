@@ -7,7 +7,7 @@ prevBtn.addEventListener('click', function() {
 galleryImgs[currentlySelected].classList.remove('active');
 currentlySelected = currentlySelected - 1; //currentlySelected --;
 galleryImgs[currentlySelected].classList.add('active');
-
+nextBtn.disabled = false;
 
 if (currentlySelected === 0 ) {
     prevBtn.disabled = true;
