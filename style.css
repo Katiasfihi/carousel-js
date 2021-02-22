@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery-img {
+    display: none;
+    max-height: 600px ;
+}
+
+.active {
+    display: block;
+}
+
+.image-gallery {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 0 9rem;
+    padding-right: 9rem;
+} 
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prev {
+    margin-right: 15px;
+}
+
+.btn:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.vertical-text {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    padding : 4rem 0;
+    margin-right: 5rem;
+    font-size: 4rem;
+}
+
+.align {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
